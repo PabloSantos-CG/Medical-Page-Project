@@ -151,3 +151,36 @@ button:hover{
     background-color: #0000003b;
     transition: .4s;
 }
+
+.container-subsection{
+    height: 70vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-article{
+    width: 60%;
+    height: 50%;
+
+    color: var(--color-null);
+    line-break: 1px;
+    background-color: #ff4400a3;
+    padding: 20px;
+    text-align: justify;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 3px #0000005e;
+}
+
+.conteudo-article h2{
+    margin: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+}
