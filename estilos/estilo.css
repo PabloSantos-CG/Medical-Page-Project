@@ -123,6 +123,8 @@ nav a{
     color: var(--color-font-1);
     background-color: transparent;
     cursor: pointer;
+
+    transition: .6s;
 }
 
 .banner-container button:hover{
