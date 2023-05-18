@@ -236,5 +236,4 @@ nav a{
 
 .column-2{
     flex: 1;
-    background-image: linear-gradient(to top, transparent, var(--color-box-3));
 }
