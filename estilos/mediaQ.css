@@ -9,9 +9,14 @@
     header{
         height: auto;
     }
-
+    
     .menu-container{
         flex-direction: row;
+    }
+    
+    .menu{
+        position: relative;
+
     }
 
     nav ul{
@@ -19,10 +24,12 @@
         display: none;
 
         position: absolute;
-        top: 10.2%;
+        top: 100%;
         right: 0;
+    
         background-color: var(--color-font-1);
     }
+    
     .material-symbols-outlined{
         cursor: pointer;
     }
@@ -42,8 +49,11 @@
 
     .banner-text h1{
         font-size: 45px;
-    }
+        background-color: transparent;
 
+    }
+    
+    
     .direction-column{
         flex-direction: column;
     }
@@ -60,13 +70,12 @@
     .copyright-footer{
         padding-left: 30px;
     }
-
+    
     .mobile-menu{
         display: block;
         margin-right: 10px;
-
     }
-
+    
     
 }
 
@@ -74,20 +83,41 @@
     .page-news-container{
         padding: 0px 10px 10px 10px;
     }
-
+    
     .widget-body{
         margin-right: auto;
     }
-
+    
     .banner-text h1{
         font-size: 35px;
     }
-
+    
     .banner-text p{
         font-size: 1em;
     }
-
+    
     .sections-footer{
         padding: 0px 10px 0px 20px;
     }
+}
+
+@media (max-width: 375px){
+    .banner-text > p{
+        width: 200px;
+        background-color: transparent;
+        text-shadow: 1px 1px 5px #000000bb;
+        box-shadow: 0px 0px 10px #00000041;
+        border-radius: 25px 25px 0px 25px;
+        padding: 10px;
+
+    }
+    .banner-text > h1{
+        width: 200px;
+        background-color: transparent;
+        text-shadow: 1px 1px 5px #00000044;
+        box-shadow: 2px 3px 10px #00000041;
+        border-radius: 25px 25px 0px 25px;
+        padding: 10px;
+    }
+    
 }
