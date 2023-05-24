@@ -57,7 +57,7 @@ nav a{
     background-color: var(--color-box-1);
     color: var(--color-font-1);
 
-    transition: .6s;
+    transition: .4s;
 }
 
 .mobile-menu{
@@ -93,17 +93,14 @@ nav a{
     justify-content: center;
 }
 
-.banner-text > h1{
-    max-width: 330px;
-    margin-bottom: 20px;
-    font-size: 50px;
-    font-weight: 500;
-}
-
 .banner-text > p{
     max-width: 300px;
     font-size: 1.1em;
     line-height: 1.5em;
+    padding-left: 5px;
+
+    font-style: italic;
+    border-left: 4px solid #3155a389;
 }
 
 .banner-box{
@@ -130,7 +127,7 @@ nav a{
     background-color: transparent;
     cursor: pointer;
 
-    transition: .6s;
+    transition: .5s;
 }
 
 .banner-container button:hover{

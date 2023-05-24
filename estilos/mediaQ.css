@@ -47,10 +47,9 @@
         padding-left: 25px;
     }
 
-    .banner-text h1{
-        font-size: 45px;
-        background-color: transparent;
-
+    .banner-text p{
+        font-weight: bold;
+        text-shadow: 1px 1px 5px #00000070;
     }
     
     
@@ -79,7 +78,7 @@
     
 }
 
-@media (max-width: 374px){
+@media (max-width: 380px){
     .page-news-container{
         padding: 0px 10px 10px 10px;
     }
@@ -93,7 +92,7 @@
     }
     
     .banner-text p{
-        font-size: 1em;
+        width: 220px;
     }
     
     .sections-footer{
@@ -101,18 +100,3 @@
     }
 }
 
-@media (max-width: 375px){
-    .banner-text > p{
-        width: 200px;
-        background-color: transparent;
-        text-shadow: 1px 1.5px 5px #000000a3;
-        box-shadow: 2px 3px 10px #00000041;
-        border-radius: 20px 20px 0px 20px;
-        padding: 10px;
-
-    }
-    .banner-text > h1{
-        text-shadow: 1px 1px 5px #00000044;
-    }
-    
-}
